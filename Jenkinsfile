@@ -22,8 +22,8 @@ pipeline {
 		            withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'PCF_LOGIN',
                             usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD']]) {
 
-                    sh 'C:\Users\VeeraswamyGatta\.jenkins\workspace\pivotal\cf login -a http:\\api.run.pivotal.io -u $USERNAME -p $PASSWORD'
-			        sh 'C:\Users\VeeraswamyGatta\.jenkins\workspace\pivotal\cf push'
+                    sh 'C:/Users/VeeraswamyGatta/.jenkins/workspace/pivotal/cf login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD'
+			        sh 'C:/Users/VeeraswamyGatta/.jenkins/workspace/pivotal/cf push'
                 }
             }
         }

@@ -1,5 +1,3 @@
-This application desgined for dev to deploy entire process
-
  Used Jenkins pipeline functionality to achieve entire build process
  
  Build -- Test --- Deploy -- Run (Pivotal)

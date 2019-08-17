@@ -23,6 +23,7 @@ pipeline {
                             usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD']]) {
 
                     bat "C:/Users/VeeraswamyGatta/.jenkins/workspace/pivotal/cf login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD"
+					bat "C:/Users/VeeraswamyGatta/.jenkins/workspace/pivotal/cf target -s development"
 			        bat "C:/Users/VeeraswamyGatta/.jenkins/workspace/pivotal/cf push"
                 }
             }

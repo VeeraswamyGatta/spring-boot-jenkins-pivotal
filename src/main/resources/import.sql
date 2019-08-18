@@ -6,5 +6,14 @@ insert into taskmanager.task_list values(1,'Gathering Requirement','Requirement 
 insert into taskmanager.task_list values(2,'Application Designing','Application Designing','MEDIUM','ACTIVE',curtime(),curtime(),0);
 insert into taskmanager.task_list values(3,'Implementation','Implementation','MEDIUM','ACTIVE',curtime(),curtime(),0);
 insert into taskmanager.task_list values(4,'Unit Testing','Unit Testing','LOW','ACTIVE',curtime(),curtime(),0);
-insert into taskmanager.task_list values(5,'Maintanence','Maintanence','LOW','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(5,'Issue1','Issue1','LOW','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(6,'Issue2','Issue2','MEDIUM','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(7,'Issue3','Issue3','MEDIUM','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(8,'Issue4','Issue4','MEDIUM','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(9,'Issue5','Issue5','LOW','COMPLETED',curtime(),curtime(),0);
+insert into taskmanager.task_list values(10,'Issue6','Issue6','LOW','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(11,'Issue5','Issue5','LOW','COMPLETED',curtime(),curtime(),0);
+insert into taskmanager.task_list values(12,'Issue6','Issue6','LOW','ACTIVE',curtime(),curtime(),0);
+insert into taskmanager.task_list values(13,'Issue5','Issue5','LOW','COMPLETED',curtime(),curtime(),0);
+insert into taskmanager.task_list values(14,'Issue6','Issue6','LOW','ACTIVE',curtime(),curtime(),0);
 select * from taskmanager.task_list;

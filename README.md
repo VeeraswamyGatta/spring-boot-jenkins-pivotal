@@ -1,26 +1,15 @@
-# tasks-angularjs-springboot
+ Used Jenkins pipeline functionality to achieve entire build process
+ 
+ Build -- Test --- Deploy -- Run (Pivotal)
+
+
 Spring Boot Application
 
 This is a application using Spring Boot, Angular JS and H2 database embedded in-memory running in Jetty.
 
 For access web browser H2 embedded go to http://localhost:8082 and connect to the database "jdbc:h2:mem:testdb", username "sa", password empty.
 
-
-Step to running application in machine:
-
-1 - Git clone application.
-
-2 - Dependency install in machine Java 8 and Maven.
-
-3 - Enter in folder and execute command line: 
-``` script
-mvn package.
-```
-4 - After execute command java:
-``` script
-java -jar target/tasks-angularjs-springboot-0.0.1-SNAPSHOT.jar
-```
-5 - Application started in port 8080.
+- Application started in port 8080.
 
 You can access application in Paas Heroku.
 
@@ -30,5 +19,15 @@ user: user
 
 password: xpto123
 
-https://evening-caverns-77497.herokuapp.com
 
+
+
+JenkinsFile 
+-----------
+For windows : Need to use bat instead of sh and also need to keep " instead '
+
+For Linux : Need to use sh instea of bat and also need to keep ' instead of "
+
+Errors:
+-----------
+Cf login refused error -- Due to single quotes
